@@ -229,7 +229,7 @@ function addThenSubtract(num1, num2, num3) {
 
 	var sum = add(num1, num2);
 
-	return subtract(sum, num3);
+	return subtract(num3, sum);
 
 }
 
@@ -376,7 +376,7 @@ console.log("17) " + canDrink)
 
 function throwParty() {
 	if(canDrink ===false) {
-		return "Meh, see yu at Starbucks."
+		return "Meh, see you at Starbucks."
 	}
 	else
 		{return "Cheee Hoo! We going to da party!"}
