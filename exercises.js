@@ -139,9 +139,9 @@ function checkSum(x) {
 	return "Mariah Carey has been married " + x + " amount of times.";
 }
 
-var sum = checkSum("1984");
+var some = checkSum("1984");
 
-console.log("6) " + sum);
+console.log("6) " + some);
 
 
 /*
